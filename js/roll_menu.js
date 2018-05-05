@@ -1,5 +1,6 @@
 //
- menu.js// translation by nesges
+// menu.js
+// translation by nesges
 //
 
 castle_description_rolls = ["dungeons/d10thecastlesits", "dungeons/d12thecastlewasbuiltby", "dungeons/d4thecastlewasbuilt", "dungeons/d6currentlythecastlesconditionis", "dungeons/d12presentlythecastleisoccupiedby", "dungeons/d12thepositionorterritoryisworthdefendingbecause", "dungeons/d10thecastlesouterdefensesinclude", "dungeons/d6theinnerkeepsdefensesinclude", "dungeons/d8thecastlecanbeheldeffectivelybyasfewas", "dungeons/d6inadditiontoitsgarrisonthecastlecanholdfoodstorestowithstandathreemonthsiegeforupto", "dungeons/d12thecastleisknownfor", "dungeons/d12whatisrumoredtobehiddeninthecastle", ];
