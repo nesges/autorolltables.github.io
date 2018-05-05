@@ -1,4 +1,5 @@
 // dungeons.js
+// translation by SchokoNougat
 //
 
 
