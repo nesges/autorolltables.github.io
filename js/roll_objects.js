@@ -1,4 +1,5 @@
 // objects.js
+// translation by Gov. Tarkin
 //
 
 
