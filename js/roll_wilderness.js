@@ -1,4 +1,5 @@
 // wilderness.js
+// translation by The Furious Rob
 //
 
 
@@ -7,21 +8,21 @@ top.wilderness = [
 
 
 
-  {"title": "d6 Point of interest You come upon a/an...", "id":"d6pointofinterestyoucomeuponaan_swamp(variant)", "roll":[
- "Ring of ancient monoliths.",
- "Entrance to a flooded tomb.",
- "Ruined temple.",
- "House floating on pontoons.",
- "Dwelling built upon stilts.",
- "Damp cave.",   ]},
-  {"title": "d6 Landmark/feature You see a/an...", "id":"d6landmarkfeatureyouseeaan_swamp(variant)", "roll":[
- "Bubbling pool of mud.",
- "Enormous gnarled old tree.",
- "Hillock rising above the water.",
- "Thorny bramble.",
- "Patch of very tall reeds.",
- "Large, rotting log.",   ]},
-  {"title": "d6 Minor feature You notice a/an...", "id":"d6minorfeatureyounoticeaan_swamp(variant)", "roll":[
+  {"title": "d6 Sehenswürdigkeit auf die ihr trefft ein/eine...", "id":"d6pointofinterestyoucomeuponaan_swamp(variant)", "roll":[
+ "Ring antiker monolithen.",
+ "Eingang zu einem überfluteten Grab.",
+ "Tempelruine.",
+ "Haus schwimmend auf Pontons.",
+ "Behausung auf Stelzen.",
+ "Feuchte Höhle.",   ]},
+  {"title": "d6 Orientierungspunkt/Merkmal Ihr seht ein/eine...", "id":"d6landmarkfeatureyouseeaan_swamp(variant)", "roll":[
+ "Sprudelndes Schlammbad.",
+ "Enormer knorriger alter Baum.",
+ "Hügel der über das Wasser reicht.",
+ "Dorniger Brombeerstrauch.",
+ "Stelle aus sehr hohen Schilf.",
+ "Großer, verrottender Baumstamm.",   ]},
+ {"title": "d6 Minor feature You notice a/an...", "id":"d6minorfeatureyounoticeaan_swamp(variant)", "roll":[
  "Scent of decay.",
  "Bird call.",
  "Flying waterfowl.",
