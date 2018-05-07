@@ -11,7 +11,7 @@ var current;
 var side_obj;
 var obj_current_display;
 var obj_history_display;
-var mouseover_on = true;
+var mouseover_on = false;
 var delete_enabled = false;
 
 
@@ -536,12 +536,12 @@ function perform_roll() {
 
   side("Title: " + roll_table_title);
   side(" ");
-  side("Suggested Use: " + roll_table.use);
+  side("Vorgeschlagene Verwendung: " + roll_table.use);
   side_display_current("<span class='roll-title'>" + roll_table_title + "</span>");
   side_display_current(" ");
   side_display_history("<div class='accordion roll-title-history'>" + roll_table_title + " <div class='history-item-menu'><div class='delete-history-item glyphicon glyphicon-trash'></div> <div class='expand-collapse glyphicon glyphicon-chevron-down'></div></div></div>", false);
   side_display_history("<div class='panel'>", false);
-  side_display("Suggested Use: <span class='roll-suggested-use'>" + roll_table.use + "</span>");
+  side_display("Vorgeschlagene Verwendung: <span class='roll-suggested-use'>" + roll_table.use + "</span>");
 
   if ( if_zero_dont_show_mainrolls != 0 ) {
 
@@ -784,43 +784,43 @@ function showalert(alert){
   switch(alert) {
     case "copy history":
       alert_type = "success";
-      alert_text = "Copied History Successfully <span class='glyphicon glyphicon-ok'></span>";
+      alert_text = "Historie erfolgreich kopiert <span class='glyphicon glyphicon-ok'></span>";
       break;
     case "copy current":
       alert_type = "success";
-      alert_text = "Copied Current Roll Successfully <span class='glyphicon glyphicon-ok'></span>";
+      alert_text = "Aktueller Wurf erfolgreich kopiert <span class='glyphicon glyphicon-ok'></span>";
       break;
     case "clear history":
       alert_type = "success";
-      alert_text = "Cleared History <span class='glyphicon glyphicon-ok'></span>";
+      alert_text = "Historie gelöscht <span class='glyphicon glyphicon-ok'></span>";
       break;
     case "hover on":
       alert_type = "success";
-      alert_text = "Menu Hover On <span class='glyphicon glyphicon-ok'></span>";
+      alert_text = "Menü Hover Ein <span class='glyphicon glyphicon-ok'></span>";
       break;
     case "hover off":
       alert_type = "success";
-      alert_text = "Menu Hover Off <span class='glyphicon glyphicon-remove'></span>";
+      alert_text = "Menü Hover Aus <span class='glyphicon glyphicon-remove'></span>";
       break;
     case "copy history blank":
       alert_type = "danger";
-      alert_text = "History Empty <span class='glyphicon glyphicon-remove'></span>";
+      alert_text = "Historie leer <span class='glyphicon glyphicon-remove'></span>";
       break;
     case "copy current blank":
       alert_type = "danger";
-      alert_text = "Current Roll Empty <span class='glyphicon glyphicon-remove'></span>";
+      alert_text = "Aktueller Wurf leer <span class='glyphicon glyphicon-remove'></span>";
       break;
     case "unable to copy":
       alert_type = "danger";
-      alert_text = "Error: Unable to Copy <span class='glyphicon glyphicon-remove'></span>";
+      alert_text = "Fehler: Konnte nicht kopieren <span class='glyphicon glyphicon-remove'></span>";
       break;
     case "nothing selected":
       alert_type = "danger";
-      alert_text = "Nothing Selected <span class='glyphicon glyphicon-remove'></span>";
+      alert_text = "Nichts ausgewählt <span class='glyphicon glyphicon-remove'></span>";
       break;
     case "history item deleted":
       alert_type = "success";
-      alert_text = "History Item Deleted <span class='glyphicon glyphicon-remove'></span>";
+      alert_text = "Historieneintrag gelöscht <span class='glyphicon glyphicon-remove'></span>";
       break;
     case "none":
       none = "true";
