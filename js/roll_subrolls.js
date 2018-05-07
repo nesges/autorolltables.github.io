@@ -1,4 +1,5 @@
 //  subrolls.js
+// translation by nesges
 //
 //  Note:
 //    percent_to is the percent to roll at all
@@ -8,14 +9,14 @@
 
 tavern_names = [
 
-  {"title": "The [Noun 1] and [Noun 1B]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun1b_tavernnames", ],"sub_rolls":[],},
-  {"title": "The [Noun 1] and the [Noun 1B]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun1b_tavernnames", ],"sub_rolls":[],},
-  {"title": "The [Noun 1]'s [Noun 2]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun2_tavernnames",],"sub_rolls":[],},
-  {"title": "The [Adjective] [Noun 1]'s [Noun 2]", "main_rolls":["settlements/d100adjective_tavernnames", "settlements/d100noun1a_tavernnames", "settlements/d100noun2_tavernnames",],"sub_rolls":[],},
-  {"title": "The [Noun 1] and the [Noun 2]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun2_tavernnames",],"sub_rolls":[],},
-  {"title": "The [Verb] [Noun 1]", "main_rolls":["settlements/d100verb_tavernnames", "settlements/d100noun1a_tavernnames", ],"sub_rolls":[],},
-  {"title": "The [Adjective] [Noun 1]", "main_rolls":["settlements/d100adjective_tavernnames", "settlements/d100noun1a_tavernnames", ],"sub_rolls":[],},
-  {"title": "The [Noun 1] and the [Adjective] [Noun 1B]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100adjective_tavernnames", "settlements/d100noun1b_tavernnames", ],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Noun 1] und [Noun 1B]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun1b_tavernnames", ],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Noun 1] und der/die/das [Noun 1B]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun1b_tavernnames", ],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Noun 1]'s [Noun 2]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun2_tavernnames",],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Adjective] [Noun 1]'s [Noun 2]", "main_rolls":["settlements/d100adjective_tavernnames", "settlements/d100noun1a_tavernnames", "settlements/d100noun2_tavernnames",],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Noun 1] und der/die/das [Noun 2]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100noun2_tavernnames",],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Verb] [Noun 1]", "main_rolls":["settlements/d100verb_tavernnames", "settlements/d100noun1a_tavernnames", ],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Adjective] [Noun 1]", "main_rolls":["settlements/d100adjective_tavernnames", "settlements/d100noun1a_tavernnames", ],"sub_rolls":[],},
+  {"title": "Der/Die/Das [Noun 1] und der/die/das [Adjective] [Noun 1B]", "main_rolls":["settlements/d100noun1a_tavernnames", "settlements/d100adjective_tavernnames", "settlements/d100noun1b_tavernnames", ],"sub_rolls":[],},
 
 
   //"settlements/d4namingformula_tavernnames",
