@@ -541,7 +541,7 @@ function perform_roll() {
   side_display_current(" ");
   side_display_history("<div class='accordion roll-title-history'>" + roll_table_title + " <div class='history-item-menu'><div class='delete-history-item glyphicon glyphicon-trash'></div> <div class='expand-collapse glyphicon glyphicon-chevron-down'></div></div></div>", false);
   side_display_history("<div class='panel'>", false);
-  side_display("Vorgeschlagene Verwendung: <span class='roll-suggested-use'>" + roll_table.use + "</span>");
+  //side_display("Vorgeschlagene Verwendung: <span class='roll-suggested-use'>" + roll_table.use + "</span>");
 
   if ( if_zero_dont_show_mainrolls != 0 ) {
 
