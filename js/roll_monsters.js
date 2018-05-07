@@ -1,4 +1,5 @@
 // monsters.js
+// translation by nesges
 //
 
 top.monsters = [
@@ -6,62 +7,62 @@ top.monsters = [
 
 
 
-  {"title": "d6 Hair The ogre’s hair is...", "id":"d6hairtheogre’shairis_ogre", "roll":[
-  "Long and stringy.",
-  "Wispy and thin.",
-  "Dark and matted.",
-  "A tangled mess.",
-  "Cut unevenly.",
-  "Gone; the ogre is bald.",   ]},
-   {"title": "d6 Eyes The ogre’s eyes are...", "id":"d6eyestheogre’seyesare_ogre", "roll":[
-  "Mismatched colors.",
-  "Mismatched sizes.",
-  "Dark and menacing.",
-  "Wide and vacant.",
-  "Scarred; one eye is missing.",
-  "Crossed.",   ]},
-   {"title": "d6 Training The ogre is a/an...", "id":"d6trainingtheogreisaan_ogre", "roll":[
+  {"title": "d6 Haar Das Haar des Ogers ist...", "id":"d6hairtheogre’shairis_ogre", "roll":[
+  "Lang und stränig.",
+  "Zerbrechlich und dünn.",
+  "Dunkel und matt.",
+  "Ein wirres Chaos.",
+  "Ungerade geschnitten.",
+  "Weg; der Oger ist kahl.",   ]},
+   {"title": "d6 Augen Die Augen des Ogers sind...", "id":"d6eyestheogre’seyesare_ogre", "roll":[
+  "von unterschiedlicher Farbe.",
+  "von unterschiedlicher Größe.",
+  "Dunkel und einschüchernd.",
+  "Geweited und ausdruckslos.",
+  "Vernarbt; Ein Auge fehlt.",
+  "Schielend.",   ]},
+   {"title": "d6 Ausbildung Der Oger ist ein...", "id":"d6trainingtheogreisaan_ogre", "roll":[
   "Berserker.",
-  "Chanter.",
-  "Hunter.",
-  "Scavenger.",
-  "Thug.",
-  "Warrior.",   ]},
-   {"title": "d6 Skill The ogre is particularly good at...", "id":"d6skilltheogreisparticularlygoodat_ogre", "roll":[
-  "Crushing skulls.",
-  "Breaking wooden doors.",
-  "Bending metal bars.",
-  "Roasting meat.",
-  "Frightening people.",
-  "Sitting very, very still.",   ]},
-   {"title": "d6 Quirk/flaw Even for an ogre, the ogre frequently...", "id":"d6quirkflawevenforanogretheogrefrequently_ogre", "roll":[
-  "Scratches itself.",
-  "Gets distracted by food.",
-  "Guffaws.",
-  "Loses its temper.",
-  "Picks its teeth.",
-  "Yawns.",   ]},
-   {"title": "d6 Possessions The ogre is carrying...", "id":"d6possessionstheogreiscarrying_ogre", "roll":[
-  "A sharp spear.",
-  "A heavy club.",
-  "A spiked club.",
-  "A sackful of trinkets.",
-  "A necklace of bones.",
-  "A string of severed ears.",   ]},
-   {"title": "d6 Immediate goal The ogre is looking for a/an...", "id":"d6immediategoaltheogreislookingforaan_ogre", "roll":[
-  "Easy meal.",
-  "Fatty meal.",
-  "Steady meal ticket.",
-  "Fight it can win.",
-  "Shiny bauble.",
-  "Object its chief asked for, but the ogre can’t remember what it was.",   ]},
-   {"title": "d6 Past misfortune The ogre was once…", "id":"d6pastmisfortunetheogrewasonce…_ogre", "roll":[
-  "Pressed into service in an orkish army.",
-  "Tricked into doing some dirty work by some goblins.",
-  "Charmed by witch.",
-  "Badly burned in a fire.",
-  "Imprisoned in a cold, dark cell.",
-  "Bested by a rival for the affections of another ogre.",   ]}, 
+  "Sänger.",
+  "Jäger.",
+  "Plünderer.",
+  "Schläger.",
+  "Krieger.",   ]},
+   {"title": "d6 Fähigkeit Der Oger kann besonders gut...", "id":"d6skilltheogreisparticularlygoodat_ogre", "roll":[
+  "Schädel einschlagen.",
+  "Holztüren einschlagen.",
+  "Metallstangen verbiegen.",
+  "Fleisch braten.",
+  "Leute erschrecken.",
+  "Sehr, sehr ruhig sitzen.",   ]},
+   {"title": "d6 Eigenart/Schwachstelle Sogar für einen Oger, tut er häufig...", "id":"d6quirkflawevenforanogretheogrefrequently_ogre", "roll":[
+  "sich kratzen.",
+  "sich von Essen ablenken lossen.",
+  "schallend lachen.",
+  "das Temperament verlieren.",
+  "seine Zähne reinigen.",
+  "gähnen.",   ]},
+   {"title": "d6 Besitz Der Oger trägt...", "id":"d6possessionstheogreiscarrying_ogre", "roll":[
+  "Einen scharfen Speer.",
+  "Eine schwere Keule.",
+  "Eine stachelbesetzte Keule.",
+  "Einen Sack voller Zeug",
+  "Eine Halskette aus Knochen.",
+  "Eine Kordel mit abgeschnittenen Ohren.",   ]},
+   {"title": "d6 Unmittelbares Ziel Der Oger sucht nach einem/einer...", "id":"d6immediategoaltheogreislookingforaan_ogre", "roll":[
+  "Einfachen Mahlzeit.",
+  "Fetten Mahlzeit.",
+  "Verlässlichen Nahrungsquelle.",
+  "Einem Kampf, den er gewinnen kann.",
+  "Glänzenden Schmuckstück.",
+  "Sache, die sein Boss von ihm verlangt hat - aber er hat vergessen was es war",   ]},
+   {"title": "d6 Unglück in der Vergangenheit Der Oger wurde einmal..", "id":"d6pastmisfortunetheogrewasonce…_ogre", "roll":[
+  "Gezwungen in der orkischen Armee zu dienen.",
+  "Hereingelegt, damit er die Drecksarbeit für einige Goblins erledigt",
+  "von einer Hexe verzaubert.",
+  "in einem Feuer schlimm verbrannt.",
+  "in einer dunklen, feuchten Zelle eingesperrt.",
+  "durch einen Rivalen um die Zuneigung eines anderen Ogers gebracht.",   ]}, 
 
 
 {"title": "d6 Hair color The merfolk’s hair is...", "id":"d6haircolorthemerfolk’shairis_merfolk", "roll":[
