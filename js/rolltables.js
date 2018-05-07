@@ -21,7 +21,7 @@ function init() {
   loadmenu();
 
   // default to dungeons table
-  loadleftdisplay("All");
+  loadleftdisplay("Alles");
 
   // check querystring for menuhover
   menuhovercheck();
