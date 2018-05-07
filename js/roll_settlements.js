@@ -105,7 +105,7 @@ top.settlements = [
 "Piling",
 "Digging",
 "Flinging",   ]},
- {"title": "d100 Adjective", "id":"d100adjective_tavernnames", "roll":[
+ {"title": "d100 Adjektiv", "id":"d100adjective_tavernnames", "roll":[
 "Quiet",
 "Jolly",
 "Good",
@@ -205,7 +205,7 @@ top.settlements = [
 "Effeminate",
 "Masculine",
 "Supine",   ]},
- {"title": "d100 Noun 1", "id":"d100noun1a_tavernnames", "roll":[
+ {"title": "d100 Nomen 1", "id":"d100noun1a_tavernnames", "roll":[
 "Horseman",
 "Maiden",
 "Mage",
@@ -305,7 +305,7 @@ top.settlements = [
 "Mason",
 "Tinker",
 "Whale",   ]},
- {"title": "d100 Noun 1B", "id":"d100noun1b_tavernnames", "roll":[
+ {"title": "d100 Nomen 1B", "id":"d100noun1b_tavernnames", "roll":[
 "Horseman",
 "Maiden",
 "Mage",
@@ -405,7 +405,7 @@ top.settlements = [
 "Mason",
 "Tinker",
 "Whale",   ]},
- {"title": "d100 Noun 2", "id":"d100noun2_tavernnames", "roll":[
+ {"title": "d100 Nomen 2", "id":"d100noun2_tavernnames", "roll":[
 "Saddle",
 "Guild",
 "Fangs",
