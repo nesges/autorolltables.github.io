@@ -536,7 +536,7 @@ function perform_roll() {
 
   side("Title: " + roll_table_title);
   side(" ");
-  side("Vorgeschlagene Verwendung: " + roll_table.use);
+  //side("Vorgeschlagene Verwendung: " + roll_table.use);
   side_display_current("<span class='roll-title'>" + roll_table_title + "</span>");
   side_display_current(" ");
   side_display_history("<div class='accordion roll-title-history'>" + roll_table_title + " <div class='history-item-menu'><div class='delete-history-item glyphicon glyphicon-trash'></div> <div class='expand-collapse glyphicon glyphicon-chevron-down'></div></div></div>", false);
@@ -559,7 +559,7 @@ function perform_roll() {
       if(value.match(inline_roll_match)) {value = inline_roll(value);}
 
       side(roll.title + " : " + value);
-      side_display(roll.title + " : <b>" + value + "</b>");
+      side_display(roll.title.replace(/^(d\d+)\s*(.*)/, '<span title="'+roll.title+'">$2</span>') + ": <b>" + value + "</b>");
     }
 
   }
