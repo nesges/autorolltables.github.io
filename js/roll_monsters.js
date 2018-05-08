@@ -455,7 +455,7 @@ top.monsters = [
 "eine Schlange",
 "eine Spinne",
 "ein Wolf",   ]},
- {"title": "d10 gekreuzt mit", "id":"d10crossedwithaan_mutantcreature", "roll":[
+ {"title": "d10 Gekreuzt mit", "id":"d10crossedwithaan_mutantcreature", "roll":[
 "einer Täuschungsbestie",
 "einem Drachen",
 "einem Ätherischen Plünderer",
@@ -477,7 +477,7 @@ top.monsters = [
 "ein Tentakelgriff",
 "Teleportation",
 "sein Erschütterungssinn",   ]},
- {"title": "d10 und er strömt eine Aura", "id":"d10anditexudesanauraof_mutantcreature", "roll":[
+ {"title": "d10 Und er strömt eine Aura", "id":"d10anditexudesanauraof_mutantcreature", "roll":[
 "die verwirrt aus",
 "von knisternden Blitzen aus",
 "der Dunkelheit aus",

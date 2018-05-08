@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Auto Roll Tables (de)</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/defaults.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/menu.css" type="text/css" media="all" />
+
+  <!-- Includes -->
+  <link rel="stylesheet" href="includes/bootstrap.min.css">
+  <link rel="stylesheet" href="includes/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+
+  <script src="js/roll_menu.js"></script>
+  <script src="js/roll_dungeons.js"></script>
+  <script src="js/roll_factions.js"></script>
+  <script src="js/roll_food.js"></script>
+  <script src="js/roll_magic.js"></script>
+  <script src="js/roll_monsters.js"></script>
+  <script src="js/roll_npcs.js"></script>
+  <script src="js/roll_objects.js"></script>
+  <script src="js/roll_plots.js"></script>
+  <script src="js/roll_settlements.js"></script>
+  <script src="js/roll_vehicles.js"></script>
+  <script src="js/roll_wilderness.js"></script>
+  <script src="js/roll_subrolls.js"></script>
+</head>
+<body>
+  <div class="bgimage">
+    <img src="includes/dndlogo1.png">
+  </div>
+
+  <div id="" class="container-fluid">
+    <div class="row" style="height:6px">&nbsp;</div>
+    <div id="menu-container" class="row">
+      <div id="menu" class="col-md-11 btn-group">
+        <a href="#" class='menuitem-style btn menu-button' aria-hidden='true'><span class="glyphicon glyphicon-th"></span></a>
+        <a href="#" class='menuitem-style btn hover-icon-clickarea' aria-hidden='true'><span class="glyphicon glyphicon-hand-up hover-icon hoveroff"></span></a>
+      </div>
+
+    </div>
+    <div id="" class="row"></div>
+  </div>
+
+  <div id="index-menu" class="index-menu">
+    <div class="index-row">
+      <div id="menu-auto-roll-tables" class='index-btn' aria-hidden='true'>Auto Roll Tables</div>
+    </div>
+    <div class="index-row">
+      <div id="menu-hex-map-generator" class='index-btn' aria-hidden='true'>Hex Map Generator</div>
+    </div>
+    <div class="index-row">
+      <div id="menu-region-map-generator" class='index-btn-bottom' aria-hidden='true'>Region Map Generator</div>
+    </div>
+  </div>
+
+  <div id="page" class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="lead"></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="leftnav" class="col-xs-12 col-sm-4">
+        <div id="left-display-list"></div>
+      </div>
+
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+         &nbsp;
+      </div>
+
+      <div id="rightnav" class="col-xs-12 col-sm-8">
+
+        <ul class="nav nav-tabs">
+          <li id="current-roll-tab" role="presentation" class="active"><a href="#">Aktueller Wurf</a></li>
+          <li id="history-roll-tab" role="presentation"><a href="#">Historie</a></li>
+          <li id="expand-history-tab" class="nav-tabs-right" role="presentation"><a href="#"><span class='glyphicon glyphicon-chevron-down' aria-label="Alle ausklappen"></span></a></li>
+          <li id="collapse-history-tab" class="nav-tabs-right" role="presentation"><a href="#"><span class='glyphicon glyphicon-chevron-up' aria-label="Alle einklappen"></span></a></li>
+          <li id="clear-history-roll-tab" class="nav-tabs-right" role="presentation"><a href="#">Historie löschen</a></li>
+        </ul>
+
+        <div id="rightview-current-display" class="rightview-current-display rightview"></div>
+        <div id="rightview-history-display" class="rightview-history-display rightview"></div>
+
+        <textarea id="rightview-current" rows="19" spellcheck="false" class="current-textarea display form-control"></textarea>
+        <textarea id="rightview-history" rows="19" spellcheck="false" class="history-textarea display form-control"></textarea>
+
+      </div>
+    </div>
+
+    <div class="row">&nbsp;</div>
+
+    <div class="row">
+      <div id="leftbuttons" class="col-md-4">
+        <div class="input-group bottom-nav">
+          <input type="text" class="form-control" placeholder="Filter..." aria-describedby="filter" id="filter">
+          <span class="input-group-addon search-button-addon">
+            <button class="btn bottom-btn" type="button" id="filter-clear"><span class='glyphicon glyphicon-remove'></span></button>
+          </span>
+          <span class="input-group-addon search-button-addon">
+            <button class="btn bottom-btn" type="button" id="filter-button"><span class='glyphicon glyphicon-search'></span></button>
+          </span>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+         &nbsp;
+      </div>
+      <div id="rightbuttons" class="col-md-4">
+        <a class="bottom-nav current-copy-button btn bottom-btn" id="copy-current-button" value="In Zwischenablage kopieren" style="width:100%;"><span class='glyphicon glyphicon-duplicate'></span> Aktuellen Wurf kopieren</a>
+      </div>
+      <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+         &nbsp;
+      </div>
+
+      <div id="rightbuttons" class="col-md-4">
+        <a class="bottom-nav history-copy-button btn bottom-btn" id="copy-history-button" value="In Zwischenablage kopieren" style="width:100%;"><span class='glyphicon glyphicon-duplicate'></span> Historie kopieren</a>
+      </div>
+    </div>
+
+    <div class="row">&nbsp;</div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="text-less-muted"><a href="credits.html">credits</a> | github: <a href="https://github.com/nesges/autorolltables.github.io">nesges/autorolltables.github.io</a>.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+<div id='alerts' class='overlay'></div>
+
+</body>
+
+
+
+<!-- Includes -->
+<script src="includes/jquery.min.js"></script>
+<script type="text/javascript" src="js/rolltables.js"></script>
+
+</html>
