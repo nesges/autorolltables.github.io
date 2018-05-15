@@ -870,7 +870,7 @@ top.monsters = [
 
 {"title": "d20 Rasse. Der Hexenmeister ist", "id":"d20racethewarlockis_warlock", "roll":[
 "ein Mensch",
-"ein Waldelf,
+"ein Waldelf",
 "ein Hochelf",
 "ein Dunkelelf",
 "ein Zwerg",
