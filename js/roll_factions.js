@@ -1,4 +1,5 @@
 // factions.js
+// translation by Moe
 //
 
 
