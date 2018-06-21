@@ -1,5 +1,5 @@
 // wilderness.js
-// translation by The Furious Rob
+// translation by 
 //
 
 
