@@ -1,5 +1,5 @@
 // npcs.js
-//
+// translation by Gov. Tarkin
 
 
 top.npcs = [
