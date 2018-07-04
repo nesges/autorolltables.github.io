@@ -1,5 +1,5 @@
 // settlements.js
-//
+// translation by Gov. Tarkin
 
 top.settlements = [
 
