@@ -1,4 +1,5 @@
 // magic.js
+// translation by Gov. Tarkin
 //
 
 top.magic = [
