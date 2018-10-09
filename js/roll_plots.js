@@ -1503,8 +1503,7 @@ top.plots = [
 "Thoos / fuusroda / whoosh - Gott der Luft, Himmel, Stürme, des Handels, des Unsichtbaren. \ NGegner von Grom, Gott des Steins. Rivale von Fiuur, Gott der Panzerung.",
 "Varis / varys / vaa - Gott der Leere, des Jenseits, des Todes, des Untodes, der Kälte. \ NGegner von Chal, Gott des Wassers. Rivale von Ignitas, Gott des Feuers.",
 "Galasia / Glacakus / Karu- Wächtergott, Meister und Aufseher der anderen Götter, sein Bereich ist Ordnung.",]},
-
-{"title": "d20 Wiederbelebung (Nachteile und Vorteile)", "id": "d20resurrectiondrawbacksandvailages", "roll": [
+{"title": "d20 Wiederbelebung (Nachteile und Vorteile)", "id": "d20resurrectiondrawbacksandadvantages", "roll": [
 "Du zögerst angesichts der Schlacht und hast Angst davor, wieder ein unerwartetes Ende zu finden. Verliere deinen Geschicklichkeitsbonus bei der Initiative.",
 "Du fühlst, dass der Tod für immer an deiner Seele nagt. Er will es zurück. Du beginnst mit einem gescheiterten Todesrettungswurf.",
 "Dein Aufenthalt im Reich der Toten hat dich der Energie des Todes gegenüberverhärtet. Erlange Widerstand gegen nekrotischen Schaden.",
