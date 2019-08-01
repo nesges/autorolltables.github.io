@@ -1898,7 +1898,7 @@ top.npcs = [
 "Enge, gezeichnete Wangen.",
 "Pummelige Wangen.",
 "Eine unangenehme Pustel.",
-"Ein großer Maulwurf.",
+"Ein großes Muttermal.",
 "Ein Schönheitsfleck.",
 "Sommersprossen.",
 "Schreckliche Narben.",
